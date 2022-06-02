@@ -1,18 +1,19 @@
 main {
   display: flex;
-  width: 100vw;
-  height: 100vh;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   background: blue;
   width: 400px;
   height: 600px;
-  align-items: center;
   border-radius: 30px;
   box-shadow: 0 0 10 #BC8F8F;
 }
